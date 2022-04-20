@@ -44,6 +44,10 @@ main {
     background-color: blue;
 }
 
+.hidden {
+    display: none;
+}
+
 section {
     background-color: var(--color5);
     max-width: 80%;
