@@ -1,7 +1,7 @@
 // import functions
 
 // grab DOM elements
-const dog = document.getElementById('dog');
+const dogDiv = document.getElementById('dogDiv');
 const button = document.getElementById('button');
 
 // set event listeners 
@@ -9,5 +9,5 @@ const button = document.getElementById('button');
     // use user input to update state 
     // update DOM to reflect the new state
 button.addEventListener('click', () => {
-    dogDiv.classList.remove('hidden');
-})
+    dogDiv.classList.toggle('hidden');
+});
